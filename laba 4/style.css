@@ -1,0 +1,65 @@
+.el{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 70px;
+    height: 100px;
+    font-size: 36px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    border-width: 10px;
+    border-color: rgb(207, 23, 58) rgb(163, 21, 48) rgb(163, 21, 48) rgb(207, 23, 58);
+    border-style: solid;
+}
+.green{
+    border: 10px dashed rgb(70, 232, 105);
+}
+.blue{
+    border: 10px dotted rgb(5, 16, 110);
+}
+.yellow{
+    border-width: 10px;
+    border-color: rgb(191, 167, 48) rgb(232, 208, 88) rgb(232, 208, 88) rgb(191, 167, 48);
+    border-style: solid;
+}
+.black{
+    border: 10px solid rgb(0, 0, 0);
+}
+.purple{
+    border: 10px groove rgb(183, 45, 214);
+}
+.liteblue{
+    border: 10px double rgb(122, 228, 245);
+}
+p span{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    background-color: #FFA500;
+    border: 1px solid #FF4500;
+}
+.first{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #FF7F50;
+}
+.second{
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    background-color: #FFA500;
+    border: 5px solid red;
+    border-radius: 20px/40px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.5);
+    overflow: auto;
+}
+.third{
+    border: 1px solid #FF6347;
+}

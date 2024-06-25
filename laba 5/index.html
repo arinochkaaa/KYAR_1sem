@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        td{
+            text-align: center;
+            vertical-align: center;
+            padding: 5px;
+            border: 2px solid black;
+        }
+        td:first-child{
+            background-color: rgb(114, 218, 226);
+        }
+        tr:first-child{
+            background-color: rgb(80, 183, 80);
+        }
+        /* .first_td{
+            background-color: rgb(80, 183, 80) !important;
+        } */
+        thead tr{
+            background-color: transparent !important;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">Чирук Андрей Витальевич 1 курс ПИ-8-2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="first_td">Часы</td>
+                <td>Дни</td>
+                <td>8 ПИ</td>
+            </tr>
+            <tr>
+                <td>14.40-16.00</td>
+                <td rowspan="2">Понедельник</td>
+                <td>пз 212-общ. Английский язык</td>
+            </tr>
+            <tr>
+                <td>16.30-17.50</td>
+                <td>лк 200-3а Компьютерные языки разметки</td>
+            </tr>
+            <tr>
+                <td>14.40-16.00</td>
+                <td rowspan="3">Вторник</td>
+                <td>лк 200-3а Основы алгоритмизации и программирования</td>
+            </tr>
+            <tr>
+                <td>16.30-17.50</td>
+                <td>лк 408-2 Математический анализ</td>
+            </tr>
+            <tr>
+                <td>18.05-19.25</td>
+                <td>пз 430-4 Белорусский язык</td>
+            </tr>
+            <tr>
+                <td>13.00-14.20</td>
+                <td rowspan="4">Среда</td>
+                <td>Физическая культура</td>
+            </tr>
+            <tr>
+                <td>14.40-16.00</td>
+                <td>лк 408-2 Арифметико-логические основы вычислительных систем</td>
+            </tr>
+            <tr>
+                <td>16.30-17.50</td>
+                <td>лр 301-1 Компьютерные языки
+                    разметки</td>
+            </tr>
+            <tr>
+                <td>18.05-19.25</td>
+                <td>пз 312-4 Линейная алгебра и аналитическая
+                    геометрия</td>
+            </tr>
+            <tr>
+                <td>14.40-16.00</td>
+                <td rowspan="4">Пятница</td>
+                <td>пз 212-общ.
+                    Английский язык</td>
+            </tr>
+            <tr>
+                <td>16.30-17.50</td>
+                <td>Физическая культура</td>
+            </tr>
+            <tr>
+                <td>18.05-19.25</td>
+                <td>лк 200-3а Основы программной инженерии</td>
+            </tr>
+            <tr>
+                <td>19.40-21.00</td>
+                <td>лк 200-3а Коррупция и её общественная опасность </td>
+            </tr>
+            <tr>
+                <td>11.25-12.45</td>
+                <td rowspan="3">Суббота</td>
+                <td>лк 200-3а Линейная алгебра и аналитическая геометрия</td>
+            </tr>
+            <tr>
+                <td>13.00-14.20</td>
+                <td>пз 111-4 Математический анали</td>
+            </tr>
+            <tr>
+                <td>14.40-16.00</td>
+                <td>лр 418-4 Основы
+                    алгоритмизации и
+                    программирования</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
