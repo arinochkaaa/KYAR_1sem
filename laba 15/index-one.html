@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100vh;
+        }
+        img{
+            width: 300px;
+            height: 200px;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(2, 300px);
+            gap: 20px;
+        }
+        p{
+            position: absolute;
+            width: 300px;
+            color: white;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="block_img">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo earum reiciendis tempore minus inventore, molestiae debitis? Ratione rem, eligendi similique fugiat veniam placeat fugit non, quo natus laudantium, facilis aliquid!</p>
+            <img src="fon1.jpg" alt="" class="image">
+        </div>
+        <div class="block_img">
+            <img src="fon2.jpg" alt="" class="image">
+        </div>
+        <div class="block_img">
+            <img src="fon3.jpg" alt="" class="image">
+        </div>
+        <div class="block_img">
+            <img src="fon4.jpg" alt="" class="image">
+        </div>
+    </div>
+    <script>
+        let firstimage = document.querySelectorAll(".image")[0];
+        let text = document.querySelectorAll("p")[0];
+        firstimage.addEventListener('mouseover', function(){
+            text.style.display = "block";
+        });
+        let secondimage = document.querySelectorAll(".image")[1];
+        secondimage.addEventListener('click', function(){
+            secondimage.style.border = "10px solid red";
+        });
+        let lastimage = document.querySelectorAll(".image")[3];
+        lastimage.addEventListener('mouseover', function(){
+            lastimage.src = "fon5.jpg";
+        });
+        lastimage.addEventListener('mouseout', function(){
+            lastimage.src = "fon4.jpg";
+        });
+
+        
+    </script>
+</body>
+</html>

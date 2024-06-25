@@ -1,0 +1,30 @@
+<?xml version="1.0"
+encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="styleXML.css">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note [
+<!ELEMENT note (top, middleTop, middleBottom, bottom)>
+<!ELEMENT top (#PCDATA)>
+<!ELEMENT middleTop (#PCDATA)>
+<!ELEMENT middleBottom (#PCDATA)>
+<!ELEMENT bottom (#PCDATA)>
+<!ENTITY title "XML (eXtensible Markup Language)">
+<!ENTITY subtitle "Расширяемый язык
+разметки, созданный для хранения, транспортировки и обмена
+данными. Он включает в себя элементы SGML и предназначен для
+определения HTML-подобных языков. ">
+<!ENTITY subtitletwo "В нем отсутствуют
+элементы SGML, не применимые к языкам типа HTML, а другие
+элементы упрощены, чтобы облегчить их понимание и
+использование. В языке XML нет предопределенных тегов, автор
+определяет свои языковые теги и свою структуру документа.">
+<!ENTITY bottomtitle "Формально XML представляет собой набор правил для создания
+собственных языков разметки, а также чтения и написания
+документов на языке разметки.">
+]>
+<note>
+    <top>&title;</top>
+    <middleTop>&subtitle;</middleTop>
+    <middleBottom>&subtitletwo;</middleBottom>
+    <bottom>&bottomtitle;</bottom>
+</note>

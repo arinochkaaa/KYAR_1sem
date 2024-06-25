@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="twos.xsl"?>
+<main>
+	<rw>
+		<user>Барило А.</user>
+		<point>4</point>
+	</rw>
+	<rw>
+		<user>Дождиков Р.</user>
+		<point>6</point>
+	</rw>
+	<rw>
+		<user>Казакова В.</user>
+		<point>10</point>
+	</rw>
+	<rw>
+		<user>Карпенко Д.</user>
+		<point>5</point>
+	</rw>
+	<rw>
+		<user>Коннов Д.</user>
+		<point>2</point>
+	</rw>
+	<rw>
+		<user>Конноненко И.</user>
+		<point>3</point>
+	</rw>
+	<rw>
+		<user>Луцкий А.</user>
+		<point>4</point>
+	</rw>
+	<rw>
+		<user>Мацук П.</user>
+		<point>9</point>
+	</rw>
+	<rw>
+		<user>Парфелова К.</user>
+		<point>3</point>
+	</rw>
+	<rw>
+		<user>Смотрицкий Н.</user>
+		<point>7</point>
+	</rw>
+    <rw>
+		<user>Старовойтов И.</user>
+		<point>4</point>
+	</rw>
+    <rw>
+		<user>Стахейко А.</user>
+		<point>8</point>
+	</rw>
+    <rw>
+		<user>Фомов Н.</user>
+		<point>6</point>
+	</rw>
+    <rw>
+		<user>Чирук А.</user>
+		<point>4</point>
+	</rw>
+    <rw>
+		<user>Шилина Е.</user>
+		<point>7</point>
+	</rw>
+
+</main>

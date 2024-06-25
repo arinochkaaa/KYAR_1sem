@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index-xslt.xsl"?>
+<content>
+    <table_row>
+        <table_block>6</table_block>
+    </table_row>
+    <table_row>
+        <table_block>4</table_block>
+    </table_row>
+    <table_row>
+        <table_block>0</table_block>
+    </table_row>
+    <table_row>
+        <table_block>1</table_block>
+    </table_row>
+    <table_row>
+        <table_block>-5</table_block>
+    </table_row>
+    <table_row>
+        <table_block>7</table_block>
+    </table_row>
+    <table_row>
+        <table_block>9</table_block>
+    </table_row>
+    <table_row>
+        <table_block>2</table_block>
+    </table_row>
+</content>

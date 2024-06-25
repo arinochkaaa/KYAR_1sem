@@ -1,0 +1,28 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+note{
+    display: block;
+    height: 100vh;
+    background-color: #b9acac;
+}
+top{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+middleTop{
+    display: block;
+    text-align: justify;
+}
+middleBottom{
+    display: block;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+bottom{
+    display: block;
+    text-align: justify;
+}
