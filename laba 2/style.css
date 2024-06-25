@@ -1,0 +1,19 @@
+h1, h2, h3, h4, h5, h6{
+    color: rgb(197, 0, 127);
+    font-family: Monotype Corsiva;
+}
+.ul_fitst{
+    color: red;
+    font-family: "Times New Roman";
+    font-size: 18pt;
+}
+.ul_second{
+    color: yellow;
+    font-family: "Times New Roman";
+    font-size: 20pt;
+}
+.ul_third{
+    color: green;
+    font-family: "Times New Roman";
+    font-size: 22pt;
+}

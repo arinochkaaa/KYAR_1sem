@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Caveat";
+    src: url(fonts/Caveat-Regular.ttf);
+}
+@font-face {
+    font-family: "Comfortaa";
+    src: url(fonts/Comfortaa.ttf);
+}
+@font-face {
+    font-family: "Exo2";
+    src: url(fonts/Exo2-Medium.ttf);
+}
+h1{
+    text-align: center;
+    font-family: "Caveat";
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+h2{
+    font-family: "Exo2";
+    margin-top: 0.2em;
+    margin-bottom: 1.2em;
+    text-align: left;
+}
+h2::first-line{
+    margin-bottom: 25px;
+} 
+p{
+    font-family: "Comfortaa";
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+p::first-line{
+    margin-bottom: 25px;
+    text-align: justify;
+    line-height: 200%;
+    font-size: 20px;
+}
+p::first-letter{
+    font-size: 45px;
+    color: white;
+    background-color: hsla(275, 100%, 10%, 1);
+    font-weight: bold;
+}
+ol{
+    list-style-type: none;
+}
+li:nth-child(1)::before{
+    content: "I";
+    color: blue;
+    margin-right: 0.5em;
+}
+li:nth-child(2)::before{
+    content: "II";
+    color: blue;
+    margin-right: 0.5em;
+}
+li:nth-child(3)::before{
+    content: "III";
+    color: blue;
+    margin-right: 0.5em;
+}
+li:nth-child(4)::before{
+    content: "IV";
+    color: blue;
+    margin-right: 0.5em;
+}
+li:nth-child(5)::before{
+    content: "V";
+    color: blue;
+    margin-right: 0.5em;
+}
+li{
+    color: black;
+    font-family: "Comfortaa";
+}
+#last_h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
